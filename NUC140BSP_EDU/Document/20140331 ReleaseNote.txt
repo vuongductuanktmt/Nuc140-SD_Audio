@@ -1,0 +1,35 @@
+This Basic Software Package (BSP) includes
+NUC140 interface device driver, learning board driver, and sample codes.
+
+It is designed for educational purpose.
+
+In order to use it, you will need to install
+1) Keil MDK (v4.7 or v5.02 were tested)
+2) NuLink USB driver (NuLink is built-in ICE on NUC140 learning board)
+3) unzip this BSP into C:\Nuvoton
+
+Directory Hierarchy
+C:\Nuvoton\Lecture        --> educational material (in .ppt) for reference
+C:\Nuvoton\NUC140BSP_EDU  --> NUC140 learning board Basic Software Package
+C:\Nuvoton\NUC140BSP_EDU\Document   --> NUC140 learning board documents
+
+C:\Nuvoton\NUC140BSP_EDU\Library    --> NUC140 Device Drivers, libraries
+C:\Nuvoton\NUC140BSP_EDU\Library\3rdParty      --> NUC140 3rdParty device drivers/libraries
+C:\Nuvoton\NUC140BSP_EDU\Library\CMSIS         --> NUC140 files for ARM CMSIS
+C:\Nuvoton\NUC140BSP_EDU\Library\Device        --> NUC140 device files for Keil/IAR
+C:\Nuvoton\NUC140BSP_EDU\Library\NUC1xx        --> NUC140 chip interface device drivers
+C:\Nuvoton\NUC140BSP_EDU\Library\NUC1xx-LB_002 --> NUC140 learning board peripheral device drivers
+C:\Nuvoton\NUC140BSP_EDU\Library\USB           --> NUC140 chip USB drivers
+
+C:\Nuvoton\NUC140BSP_EDU\SampleCode --> NUC140 Sample Codes
+C:\Nuvoton\NUC140BSP_EDU\SampleCode\Driver     --> NUC140 driver sample codes
+C:\Nuvoton\NUC140BSP_EDU\SampleCode\EduProject --> NUC140 educational project sample codes
+C:\Nuvoton\NUC140BSP_EDU\SampleCode\EduSample  --> NUC140 educational basic sample codes
+C:\Nuvoton\NUC140BSP_EDU\SampleCode\USB        --> NUC140 USB sample codes
+
+Revision : 20140331
+1. change file hierarchy to be compatible with M051, Nano100, NUC400 series
+2. support TFT panel
+
+
+
